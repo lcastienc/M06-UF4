@@ -1,0 +1,19 @@
+.TaskCard{
+  display: flex;
+}
+.Task{
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+  .tascaCompletada p {
+    /* Estilos para el texto de la tarea completada */
+    text-decoration: line-through;
+  }
+
+
+
+  .delete{
+    width: 100%;
+    height: 100%;
+  }
