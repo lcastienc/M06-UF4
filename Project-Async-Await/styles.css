@@ -115,3 +115,6 @@ main{
     color: var(--gray);
 }
 
+#loadingIndicator {
+    display: none;
+}
