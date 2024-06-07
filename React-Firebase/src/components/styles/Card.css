@@ -1,0 +1,53 @@
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:black
+}
+
+/* src/components/styles/Card.css */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
